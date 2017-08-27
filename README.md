@@ -5,7 +5,7 @@
 </p>
 <p align='center'>
   <a href="https://mike.works/course/web-security-5c876cc" target='_blank'>
-    <img height=150 src='https://cloud.githubusercontent.com/assets/558005/26024624/70ade15a-37d5-11e7-9e65-aa7b696cbaa0.png' />
+    <img height=150 src='https://user-images.githubusercontent.com/558005/29754319-66262caa-8b37-11e7-98ed-8bde2e2e4f3a.png' />
   </a>
 </p>
 
