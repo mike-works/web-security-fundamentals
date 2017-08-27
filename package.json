@@ -10,13 +10,13 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "ejs": "~2.5.6",
+    "ejs-mate": "^2.3.0",
     "express": "~4.15.2",
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2"
   },
   "description": "Mike Works Web Security course",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mike-north/web-security-fundamentals.git"

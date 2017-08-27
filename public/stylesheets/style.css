@@ -1,8 +1,29 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
-a {
-  color: #00B7FF;
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+footer {
+  padding: 10px 0;
+}
+footer a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+}
+
+.navbar .brand {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;  
+  font-size: 3rem;
 }
