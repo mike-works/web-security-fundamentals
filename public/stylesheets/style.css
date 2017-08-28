@@ -2,6 +2,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background: #ddd;
 }
 
 header {
@@ -23,7 +24,39 @@ main {
   flex: 1;
 }
 
-.navbar .brand {
+.navbar .brand,
+.navbar-nouser .brand {
   font-family: "Comic Sans MS", "Comic Sans", cursive;  
   font-size: 3rem;
+  color: white;
+}
+.navbar-nouser {
+  background: #aaa;
+}
+.navbar-nouser .brand {
+  color: #000;
+}
+
+.account-rows {
+  width: 100%;
+}
+.account-row__item {
+  line-height: 3rem;
+  padding: 0;
+}
+.account-row__item td {
+  margin: 0;
+}
+.account-rows .account-row__item_balance {
+  text-align: right;
+}
+.account-rows .account-row__item_name {
+  font-size: 1.75rem;
+}
+.account-rows .account-row__item_number {
+  font-family: monospace;
+}
+
+.spacer-t-20 {
+  margin-top: 20px;
 }

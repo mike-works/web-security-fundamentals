@@ -1,0 +1,27 @@
+<% layout('auth/layout') -%>
+<div class="spacer-t-20"></div>
+<div class="mui-panel">
+  <div class="mui--pull-right">
+      Already have an account?
+    <a href="/login">Login here!</a>
+  </div>
+  <h1>Register</h1>
+  
+  <form class="mui-form" action="/register" method="post">
+    <div class="mui-textfield mui-textfield--float-label">
+      <input name='username' type="email" required placeholder="Email">
+      <label for="username">Email</label>
+    </div>
+    <div class="mui-textfield mui-textfield--float-label">
+      <input name='password' type="password" required placeholder="Password">
+      <label for="password">Password</label>
+    </div>
+    <div class="mui-textfield mui-textfield--float-label">
+      <input name='password_confirmation' type="password" required placeholder="Confirm Password">
+      <label for="password_confirmation">Confirm Password</label>
+    </div>
+    <button type="submit" class="mui-btn mui-btn--primary">
+      📇 Register
+    </button>
+  </form>
+</div>
