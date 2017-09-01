@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+var app = require('./server/index.js');
 var debug = require('debug')('strawbank:server');
 var http = require('http');
 

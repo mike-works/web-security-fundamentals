@@ -9,14 +9,17 @@
           
           <div class="mui-dropdown">
             <button class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
-              👀 mike@mike.works
+              <%= currentUser.username %>
               <span class="mui-caret"></span>
             </button>
             <ul class="mui-dropdown__menu">
-              <li><a href="/logout">Logout</a></li>
+              <li>
+                <form action='/auth/logout' id='logout_form' method="POST">
+                </form>
+                <a onClick='document.querySelector("#logout_form").submit()'>Logout</a>
+              </li>
             </ul>
           </div>
-
         </td>
       </tr>
     </table>

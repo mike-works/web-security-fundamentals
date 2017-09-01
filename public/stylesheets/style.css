@@ -9,6 +9,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 footer {
@@ -56,7 +57,67 @@ main {
 .account-rows .account-row__item_number {
   font-family: monospace;
 }
+.account-rows .account-row__item_actions {
+  display: inline-block;
+  width: 0;
+  margin: 0;
+  padding: 0;
+  margin-left: -30px;
+}
+.account-rows td.account-row__item_actions {
+  background: white;
+  padding: 10px;
+  width: 10px;
+  -webkit-box-shadow: -2px 1px 2px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: -2px 1px 2px 0 rgba(0, 0, 0, 0.16);
+}
+.account-rows td.account-row__item_actions button {
+  border: none;
+  background: white;
+}
+.account-rows .account-row__item .account-row__item_actions  {
+  visibility: hidden;
+}
+.account-rows .account-row__item:hover .account-row__item_actions {
+  visibility: visible;
+}
 
 .spacer-t-20 {
   margin-top: 20px;
+}
+
+.alert {
+  line-height: 1.3rem;
+  font-size: 1.3rem;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding-left: 40px;
+  position: relative;
+}
+.alert:before {
+  position: absolute;
+  font-size: 2rem;
+  left: 10px;
+  width: 30px;
+}
+
+.alert.alert-success {
+  background: palegreen;
+}
+.alert.alert-success:before {
+  content: '✅';
+}
+
+.alert.alert-danger {
+  background: pink;
+}
+.alert.alert-danger:before {
+  content: '🚨';
+}
+
+.alert.alert-warn {
+  background: #FF9;
+}
+.alert.alert-warn:before {
+  content: '⚠️';
 }

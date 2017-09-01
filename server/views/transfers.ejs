@@ -1,0 +1,60 @@
+<% layout('navbar-layout') -%>
+<div class="spacer-t-20"></div>
+<div class="mui-panel">
+  <ul class="mui-tabs__bar">
+    <li>
+      <a href="/">🏦 Accounts</a>
+    </li>
+    <li class="mui--is-active">
+      <a href="/transfers">💸 Transfers</a>
+    </li>
+  </ul>
+  <div class="mui-tabs__pane mui--is-active">
+    <div class="spacer-t-20"></div>
+    <form class="mui-form" action='/transfers' method='post'>
+      <legend>Begin a Funds Transfer</legend>
+      <div class="spacer-t-20"></div>
+      <div class="mui-textfield">
+        <select name='accountFrom'>
+          <!-- <option value="" disabled selected>-- Please Select --</option> -->
+          <% for (let account of myAccounts) { %>
+            <option value="<%= account.id %>"
+              <% if (account.id == accountFrom) { %>
+                selected
+              <% } %> >
+              <%= account.maskedAccountNumber %>(<%- account.name %>)
+              $<%= account.balance %>
+            </option>
+          <% } %>
+        </select>
+        <label>From Account</label>
+      </div>
+      <div class="mui-textfield">
+        <select name='accountTo'>
+          <% for (let username in userAccounts) { %>
+          <optgroup label="<%- username %>">
+            <% for (let account of userAccounts[username]) {%>
+              <option
+                value="<%- account.id %>"
+                <% if (account.id == accountTo) { %>
+                selected
+                <% } %> >
+                <%= account.maskedAccountNumber %>(<%- account.name %>)
+                $<%= account.balance %>
+              </option>
+            <% } %>
+          </optgroup>
+          <% } %>
+        </select>
+        <label>To Account</label>
+      </div>
+      <div class="mui-textfield mui-textfield--float-label">
+        <input name='amount' type="text" required placeholder="Amount ($)" value=<%- amount %>>
+        <label for="amount">Amount</label>
+      </div>
+      <button type="submit" class="mui-btn mui-btn--primary">
+        💸 Transfer Funds
+      </button>
+    </form>
+  </div>
+</div>

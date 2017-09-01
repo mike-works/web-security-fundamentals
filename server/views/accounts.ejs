@@ -1,0 +1,57 @@
+<% layout('navbar-layout') -%>
+<div class="spacer-t-20"></div>
+<div class="mui-panel">
+  <ul class="mui-tabs__bar">
+    <li class="mui--is-active">
+      <a href="/">🏦 Accounts</a>
+    </li>
+    <li>
+      <a href="/transfers">💸 Transfers</a>
+    </li>
+  </ul>
+  <div class="mui-tabs__pane mui--is-active">
+    <div class="spacer-t-20"></div>
+    <p>
+      Found <%= accounts.length %> accounts belonging to user <%= currentUser.username %>.
+    </p>
+    <table class='account-rows mui-table '>
+      <thead>
+        <tr>
+          <th class="account-row__item_actions"></th>
+          <th>Name</th>
+          <th>Number</th>
+          <th class="account-row__item_balance">Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% for (let account of accounts) { %>
+          <tr class='account-row__item'>
+            <td class="account-row__item_actions">
+              <form action="/accounts/<%= account.id %>/delete" method="POST">
+                <button type="submit">
+                    🚫
+                </button>
+              </form>
+            </td>
+            <td class="account-row__item_name"><%- account.name %></td>
+            <td class="account-row__item_number"><%- account.maskedAccountNumber %></td>
+            <td class="account-row__item_balance">$<%- account.balance %></td>
+          </tr>
+        <% } %>
+      </tbody> 
+    </table>
+  </div>
+</div>
+
+<div class="mui-panel">
+  <h2>Create a new account</h2>
+  <form class='mui-form' action="/accounts" method="POST">
+    <div class="mui-textfield mui-textfield--float-label">
+      <input name='name' type="text" required placeholder="Account Name">
+      <label for="name">Account Name</label>
+    </div>
+    <button type="submit" class="mui-btn mui-btn--primary">
+      + New Account
+    </button>
+  </form>
+</div>
