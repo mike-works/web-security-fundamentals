@@ -18,8 +18,11 @@
       "env": {
         "DEBUG": "strawbank:*"
       },
-      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
-      "program": "${workspaceRoot}/index.js"
+      "program": "${workspaceRoot}/node_modules/.bin/nodemon",
+      "args": [
+        "--debug",
+        "${workspaceRoot}/index.js"
+      ]
     }
   ]
 }
