@@ -31,6 +31,9 @@ class Db {
   transaction() {
     return this.connection.transaction(...arguments);
   }
+  query() {
+    return this.connection.query(...arguments);
+  }
 }
 
 Db.instance = new Db();

@@ -12,7 +12,7 @@ const accounts = require('./routes/accounts');
 const transfers = require('./routes/transfers');
 const auth = require('./routes/auth');
 const register = require('./routes/register');
-const users = require('./routes/users');
+const user = require('./routes/user');
 const session = require('express-session');
 const SQLiteStore = require('connect-sqlite3')(session);
 const { flashMiddleware } = require('./flash');
@@ -67,7 +67,7 @@ app.use('/accounts', accounts);
 app.use('/transfers', transfers);
 app.use('/auth', auth);
 app.use('/register', register);
-app.use('/users', users);
+app.use('/user', user);
 
 
 

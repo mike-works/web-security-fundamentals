@@ -14,6 +14,9 @@
             </button>
             <ul class="mui-dropdown__menu">
               <li>
+                <a href='/user/<%- currentUser.username %>'>Profile</a>
+              </li>
+              <li>
                 <form action='/auth/logout' id='logout_form' method="POST">
                 </form>
                 <a onClick='document.querySelector("#logout_form").submit()'>Logout</a>
