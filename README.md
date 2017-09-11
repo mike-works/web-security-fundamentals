@@ -27,16 +27,16 @@
 This is the  project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Web Security for Web Developers" href="https://mike.works/course/web-security-5c876cc">Web Security for Web Developers</a> course.
 </p>
 
-# Are there any documents that go along with this?
+## Are there any documents that go along with this?
 Yes! **[Here are the slides](https://docs.mike.works/web-security-fundamentals)**, and **[here's a course outline](https://mike.works/course/web-security-5c876cc)**.
 
-# What are the pieces?
+## What are the pieces?
 
 * [node-sass-middleware](https://github.com/sass/node-sass-middleware) for Sass compilation
 * [express](http://expressjs.com/) for serving HTML and CSS (compiled from Sass)
 * [commander](https://github.com/tj/commander.js) as a foundation for a CLI to run exerises
 
-# Getting Set Up
+## Getting Set Up
 
 There are a few things you need to ensure you have installed, in order to be ready for this course.
 
@@ -65,8 +65,41 @@ cd websec
 npm install
 ```
 
+### Troubleshooting
 
-# How to use it
+#### What if I have an older version of Node.js?
+
+You may run into problems during the workshop! An easy way to deal with this is to...
+
+* install [nvm](https://github.com/creationix/nvm) by running
+
+```sh
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+```
+or Wget:
+
+```sh
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+```
+* then restart your terminal
+* then run
+```sh
+nvm install stable
+nvm use stable
+nvm alias default stable
+```
+
+#### What if I get an error like `Please install sqlite3 package manually`?
+
+If you use OS X, it can be installed with [homebew](https://brew.sh/)
+
+```sh
+brew install sqlite3
+```
+
+Windows and Linux users, please install the appropriate [official release](https://sqlite.org/download.html).
+
+## How to use it
 
 This workshop builds on a single example project, step-by-step. You can start the project by running
 
@@ -74,7 +107,7 @@ This workshop builds on a single example project, step-by-step. You can start th
 npm start
 ```
 
-# License
+## License
 While the general license for this project is the BSD 3-clause, the exercises
 themselves are proprietary and are licensed on a per-individual basis, usually
 as a result of purchasing a ticket to a public workshop, being a participant
