@@ -15,7 +15,7 @@ function logout(req) {
 
 function bounceOutIfLoggedOut(req, res, callback, fallbackPath = '/') {
   if (isAuthenticated(req)) {
-    callback();
+    return callback();
   } else {
     req.session.sessionFlash = {
       type: 'danger',

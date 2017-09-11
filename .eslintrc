@@ -11,5 +11,8 @@
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true
     }
+  },
+  "rules": {
+    "no-console": "off"
   }
 }

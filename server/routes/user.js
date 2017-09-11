@@ -8,6 +8,13 @@ router.get('/:username', function(req, res, next) {
   bounceOutIfLoggedOut(req, res, () => {
     Db.query("SELECT id, username, createdAt FROM users WHERE username = '" + username + "';").spread((results) => {
       res.render('user', {title: 'User', user: results[0] });
+    })
+    .catch(() => {
+      req.session.sessionFlash = {
+        type: 'danger',
+        message: `No user found: ${username}`
+      }
+      res.redirect('/accounts');
     });
   });
 });

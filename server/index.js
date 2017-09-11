@@ -46,7 +46,12 @@ app.use(session({
   saveUninitialized: true,
   resave: 'true',
   secret: 'secret'
-}))
+}));
+
+app.use(function(req, res, next) {
+  res.setHeader('X-Frame-Options', 'DENY');
+  next();
+});
 
 app.use(flashMiddleware);
 app.use(express.static(path.join(__dirname, '..', 'public')));

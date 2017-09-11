@@ -35,10 +35,9 @@ router.get('/', function(req, res/*, next*/) {
   });
 });
 
-router.post('/', function(req, res) {
+router.all('/perform', function(req, res) {
   bounceOutIfLoggedOut(req, res, () => {
-          
-    let { accountFrom, accountTo, amount } = req.body;
+    let { accountFrom, accountTo, amount } = Object.assign(Object.assign({}, req.body), req.query);
     amount = parseFloat(amount);
     if (!accountFrom || !accountTo) {
       errorAndReload(req, res, 'Must specify accounts to transfer from and to');
