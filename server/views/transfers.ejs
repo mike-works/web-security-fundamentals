@@ -14,6 +14,7 @@
     <form class="mui-form" action='/transfers/perform' method='post'>
       <legend>Begin a Funds Transfer</legend>
       <div class="spacer-t-20"></div>
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
       <div class="mui-textfield">
         <select name='accountFrom'>
           <!-- <option value="" disabled selected>-- Please Select --</option> -->
