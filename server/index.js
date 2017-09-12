@@ -16,11 +16,9 @@ const user = require('./routes/user');
 const session = require('express-session');
 const SQLiteStore = require('connect-sqlite3')(session);
 const { flashMiddleware } = require('./flash');
-// const Db = require('./db');
-// console.log(Db.instance);
+const csp = require('helmet-csp');
 
 const app = express();
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -35,6 +33,16 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser('secret'));
+
+app.use(csp({
+  directives: {
+    styleSrc: ["'self'", "'unsafe-inline'"],
+    fontSrc: ["data:"],
+    defaultSrc: ["'self'"]
+  },
+  loose: true
+}))
+
 app.use(session({
   name: 'strawbank',
   cookie: { maxAge: 60000 },

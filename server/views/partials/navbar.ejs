@@ -14,7 +14,7 @@
             </button>
             <ul class="mui-dropdown__menu">
               <li>
-                <a href='/user/<%- currentUser.username %>'>Profile</a>
+                <a href='/user/<%= currentUser.username %>'>Profile</a>
               </li>
               <li>
                 <form action='/auth/logout' id='logout_form' method="POST">
