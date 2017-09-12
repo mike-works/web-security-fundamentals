@@ -16,7 +16,7 @@
   <a href="https://mike.works/course/web-security-5c876cc" title="Web Security for Web Developers">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
   </a>
-  <a href="https://docs.mike.works/sass-fundamentals" title="Slides">
+  <a href="https://docs.mike.works/web-sec" title="Slides">
     <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
   </a>
   <a title="Greenkeeper badge" href="https://greenkeeper.io/">
