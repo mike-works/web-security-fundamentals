@@ -49,7 +49,7 @@
         <label>To Account</label>
       </div>
       <div class="mui-textfield mui-textfield--float-label">
-        <input name='amount' type="text" required placeholder="Amount ($)" value=<%- amount %>>
+        <input name='amount' type="text" required placeholder="Amount ($)" value=<%- amount || 0 %>>
         <label for="amount">Amount</label>
       </div>
       <button type="submit" class="mui-btn mui-btn--primary">
