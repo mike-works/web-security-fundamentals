@@ -5,8 +5,21 @@
     <link rel='stylesheet' href='/stylesheets/mui.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <script type='text/javascript' src='/javascripts/mui.js' ></script>
+    <style id="clickjack">
+      body{
+        display:none !important;
+      }
+    </style>
   </head>
   <body>
     <%- body -%>
+    <script>
+      if (self === top) {
+        var cj = document.getElementById("clickjack");
+        cj.parentNode.removeChild(clickjack);
+      } else {
+        top.location = self.location;
+      }
+    </script>
   </body>
 </html>

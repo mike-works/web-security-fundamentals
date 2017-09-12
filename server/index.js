@@ -38,6 +38,7 @@ app.use(csp({
   directives: {
     styleSrc: ["'self'", "'unsafe-inline'"],
     fontSrc: ["data:"],
+    scriptSrc: ["'self'", "'sha256-/ZdAHFdV7yWrEOf9ejgekqixjE8GNE9FLd6bmdz9gSM='"],
     defaultSrc: ["'self'"]
   },
   loose: true
@@ -62,6 +63,11 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use(function(req, res, next){
   res.locals.sessionFlash = req.session.sessionFlash;
   delete req.session.sessionFlash;
+  next();
+});
+
+app.use(function(req, res, next) {
+  res.setHeader('X-Frame-Options', 'DENY');
   next();
 });
 
