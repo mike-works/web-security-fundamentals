@@ -44,7 +44,7 @@ router.get('/', function(req, res/*, next*/) {
 //// ↓ EXERCISE 5 SOLUTION GOES HERE
 ////   - Add CSRF protection to this route
 ////   - Limit this route to only POST requests
-router.all('/perform', function(req, res) {
+router.post('/perform', function(req, res) {
   bounceOutIfLoggedOut(req, res, () => {
     let { accountFrom, accountTo, amount } = Object.assign(Object.assign({}, req.body), req.query);
     amount = parseFloat(amount);

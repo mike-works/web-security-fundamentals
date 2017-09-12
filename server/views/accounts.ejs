@@ -33,9 +33,9 @@
                 </button>
               </form>
             </td>
-            <td class="account-row__item_name"><%- account.name %></td>
-            <td class="account-row__item_number"><%- account.maskedAccountNumber %></td>
-            <td class="account-row__item_balance">$<%- account.balance %></td>
+            <td class="account-row__item_name"><%= account.name %></td>
+            <td class="account-row__item_number"><%= account.maskedAccountNumber %></td>
+            <td class="account-row__item_balance">$<%= account.balance %></td>
           </tr>
         <% } %>
       </tbody> 

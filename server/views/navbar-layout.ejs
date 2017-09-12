@@ -6,7 +6,7 @@
   <div class="mui--appbar-height"></div>
   <% if (sessionFlash) { %>
     <div class='mui-panel alert alert-<%= sessionFlash.type %>'>
-      <%- sessionFlash.message %>
+      <%= sessionFlash.message %>
     </div>
   <% } %>
   <div class="mui-container"> 

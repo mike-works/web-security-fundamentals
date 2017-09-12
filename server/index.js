@@ -16,6 +16,7 @@ const user = require('./routes/user');
 const session = require('express-session');
 const SQLiteStore = require('connect-sqlite3')(session);
 const { flashMiddleware } = require('./flash');
+const csp = require('helmet-csp');
 
 const app = express();
 
@@ -32,7 +33,17 @@ app.use(cors());
 
 ///////////////////////////////////////////
 //// ↓ EXERCISE 2 SOLUTION GOES HERE ↓ ////
+app.use(csp({
+  // Specify directives as normal.
+  directives: {
+    defaultSrc: ["'self'"],
+    styleSrc: ["'self'", "'unsafe-inline'"],
+    scriptSrc: ["'self'"],
+    fontSrc: ["data:"]
+  }
+}));
 ///////////////////////////////////////////
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser('secret'));
