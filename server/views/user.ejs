@@ -2,10 +2,10 @@
 <div class="spacer-t-20"></div>
 <% if (user && user.username) { %>
 <div class="mui-panel">
-  <h4>User: <%- user.username %></h4>
+  <h4>User: <%= user.username %></h4>
 </div>
 <% } else { %>
   <div class="mui-panel">
-    <h4>No user found: <%- user.replace('</script', 'console.log("done");</script') %></h4>
+    <h4>No user found: <%= user.replace('</script', 'console.log("done");</script') %></h4>
   </div>
 <% } %>
