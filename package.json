@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/.bin/babel-node index.js"
+    "start": "./node_modules/.bin/nodemon index.js"
   },
   "dependencies": {
     "bcrypt": "^1.0.3",
@@ -27,7 +27,7 @@
     "lodash": "^4.17.4",
     "morgan": "~1.8.1",
     "node-exiftool": "2.2.0",
-    "nodemon": "^1.11.0",
+    "nodemon": "^1.12.0",
     "sequelize": "^4.7.5",
     "serve-favicon": "~2.4.2",
     "sqlite3": "^3.1.10"
