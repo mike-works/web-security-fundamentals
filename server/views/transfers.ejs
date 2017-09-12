@@ -12,6 +12,7 @@
   <div class="mui-tabs__pane mui--is-active">
     <div class="spacer-t-20"></div>
     <form class="mui-form" action='/transfers/perform' method='post'>
+      <input type="hidden" name="_csrf" value="<%= csrfToken %>">
       <legend>Begin a Funds Transfer</legend>
       <div class="spacer-t-20"></div>
       <div class="mui-textfield">
