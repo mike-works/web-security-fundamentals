@@ -11,7 +11,7 @@
 
 <p align='center'>
   <a href="https://travis-ci.org/mike-north/web-security-fundamentals" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-north/web-security-fundamentals.svg?branch=solution"/>
+    <img title="Build Status" src="https://travis-ci.org/mike-north/web-security-fundamentals.svg?branch=master"/>
   </a>
   <a href="https://mike.works/course/web-security-5c876cc" title="Web Security for Web Developers">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
