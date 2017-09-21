@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/.bin/nodemon index.js"
+    "start": "./node_modules/.bin/nodemon index.js",
+    "test": "echo 'no tests'"
   },
   "dependencies": {
     "bcrypt": "^1.0.3",
