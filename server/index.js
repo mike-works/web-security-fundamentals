@@ -37,8 +37,8 @@ app.use(csp({
   // Specify directives as normal.
   directives: {
     defaultSrc: ["'self'"],
+    scriptSrc: ["'self'", "'sha256-mqlXV1QiJRQFCij09wE8hbpAZhbYuCkiVaRvxU7Hn6E='"],
     styleSrc: ["'self'", "'unsafe-inline'"],
-    scriptSrc: ["'self'"],
     fontSrc: ["data:"]
   }
 }));
@@ -62,6 +62,10 @@ app.use(session({
 
 ///////////////////////////////////////////
 //// ↓ EXERCISE 7 SOLUTION GOES HERE ↓ ////
+app.use(function (req, res, next) {
+  res.setHeader('X-Frame-Options', 'DENY');
+  next();
+});
 ///////////////////////////////////////////
 
 app.use(flashMiddleware);

@@ -8,14 +8,23 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <!-- EXERCISE 8 requires modifying of the tag below ↓ -->
     <script type='text/javascript' src='/javascripts/mui.js' ></script>
-    <!-- ↓ EXERCISE 7 SOLUTION GOES HERE ↓
-      <style></style>
-    -->
+    <!-- ↓ EXERCISE 7 SOLUTION GOES HERE ↓ -->
+      <style id="clickjack">
+        body{
+          display:none !important;
+        }
+      </style>
   </head>
   <body>
     <%- body -%>
-    <!-- ↓ EXERCISE 7 SOLUTION GOES HERE ↓
-      <script></script>
-    -->
+    <!-- ↓ EXERCISE 7 SOLUTION GOES HERE ↓ -->
+      <script>
+        if (self === top) {
+          var cj = document.getElementById("clickjack");
+          cj.parentNode.removeChild(clickjack);
+        } else {
+          top.location = self.location;
+        }
+      </script>
   </body>
 </html>
