@@ -72,6 +72,10 @@ app.use(flashMiddleware);
 
 ///////////////////////////////////////////
 //// ↓ EXERCISE 10 SOLUTION GOES HERE ↓ ////
+app.use(function (req, res, next) {
+  res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains');
+  next();
+}); 
 ///////////////////////////////////////////
 
 app.use(express.static(path.join(__dirname, '..', 'public')));
