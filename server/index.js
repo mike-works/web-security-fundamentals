@@ -16,11 +16,17 @@ const user = require('./routes/user');
 const session = require('express-session');
 const SQLiteStore = require('connect-sqlite3')(session);
 const { flashMiddleware } = require('./flash');
-// const Db = require('./db');
-// console.log(Db.instance);
 
+///////////////////////////////////////////
+//// ↓ EXERCISE 9 SOLUTION GOES HERE ↓ ////
+////  - Setup express to work over HTTPS //
+////
+////  let server = https.createServer({
+////    cert: fs.readFileSync('filename'),
+////    key: fs.readFileSync('filename'),
+////    passphrase: 'key-passphrase'
+////  }, app);
 const app = express();
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -32,6 +38,10 @@ app.set('view options', { layout: true });
 app.use(favicon(path.join(__dirname, '..', 'public', 'favicon.ico')));
 app.use(logger('dev'));
 app.use(cors());
+
+///////////////////////////////////////////
+//// ↓ EXERCISE 2 SOLUTION GOES HERE ↓ ////
+///////////////////////////////////////////
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser('secret'));
@@ -48,7 +58,16 @@ app.use(session({
   secret: 'secret'
 }));
 
+///////////////////////////////////////////
+//// ↓ EXERCISE 7 SOLUTION GOES HERE ↓ ////
+///////////////////////////////////////////
+
 app.use(flashMiddleware);
+
+///////////////////////////////////////////
+//// ↓ EXERCISE 10 SOLUTION GOES HERE ↓ ////
+///////////////////////////////////////////
+
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
 app.use(function(req, res, next){

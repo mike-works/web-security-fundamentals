@@ -16,7 +16,9 @@ function errorAndReload(req, res, message) {
   }
   res.redirect('/transfers');
 }
-
+//////////////////////////////////////////////////////////////
+//// ↓ EXERCISE 5 SOLUTION GOES HERE
+////   - Add CSRF protection to this route
 router.get('/', function(req, res/*, next*/) {
   bounceOutIfLoggedOut(req, res, () => {
     let { accountTo, accountFrom, amount } = req.query;
@@ -30,6 +32,9 @@ router.get('/', function(req, res/*, next*/) {
       let myAccounts = allAccounts.filter((a) => a.userId === req.session.currentUser.id);
       let userAccounts = collection.groupBy(
         allAccounts.map(a => a.get({plain: true})), acc => acc.user.username);
+      //////////////////////////////////////////////////////////////
+      //// ↓ EXERCISE 5 SOLUTION GOES HERE
+      ////   - Pass req.csrfToken() to template so it can be rendered
       res.render('transfers', { title: 'Strawbank: Transfers', myAccounts, userAccounts, accountTo, accountFrom, amount });
     });
   });
