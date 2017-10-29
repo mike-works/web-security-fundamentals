@@ -18,7 +18,15 @@ app.set('port', port);
 /**
  * Create HTTP server.
  */
-
+///////////////////////////////////////////
+//// ↓ EXERCISE 9 SOLUTION GOES HERE ↓ ////
+////  - Setup express to work over HTTPS //
+////
+////  let server = https.createServer({
+////    cert: fs.readFileSync('filename'),
+////    key: fs.readFileSync('filename'),
+////    passphrase: 'key-passphrase'
+////  }, app);
 var server = http.createServer(app);
 
 /**

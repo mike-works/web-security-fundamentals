@@ -17,15 +17,6 @@ const session = require('express-session');
 const SQLiteStore = require('connect-sqlite3')(session);
 const { flashMiddleware } = require('./flash');
 
-///////////////////////////////////////////
-//// ↓ EXERCISE 9 SOLUTION GOES HERE ↓ ////
-////  - Setup express to work over HTTPS //
-////
-////  let server = https.createServer({
-////    cert: fs.readFileSync('filename'),
-////    key: fs.readFileSync('filename'),
-////    passphrase: 'key-passphrase'
-////  }, app);
 const app = express();
 
 // view engine setup
