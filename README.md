@@ -133,6 +133,6 @@ exercises contained within this project to run your own workshops
 
 # Copyright
 
-&copy; 2017 [Mike.Works](https://mike.works), All Rights Reserved
+&copy; 2018 [Mike.Works](https://mike.works), All Rights Reserved
 
 ###### This material may not be used for workshops, training, or any other form of instructing or teaching developers, without express written consent
