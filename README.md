@@ -10,8 +10,8 @@
 </p>
 
 <p align='center'>
-  <a href="https://travis-ci.org/mike-north/web-security-fundamentals" title="Build Status">
-    <img title="Build Status" src="https://travis-ci.org/mike-north/web-security-fundamentals.svg?branch=master"/>
+  <a href="https://travis-ci.org/mike-works/web-security-fundamentals" title="Build Status">
+    <img title="Build Status" src="https://travis-ci.org/mike-works/web-security-fundamentals.svg?branch=master"/>
   </a>
   <a href="https://mike.works/course/web-security-5c876cc" title="Web Security for Web Developers">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
@@ -20,7 +20,7 @@
     <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
   </a>
   <a title="Greenkeeper badge" href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/mike-north/web-security-fundamentals.svg"/>
+    <img src="https://badges.greenkeeper.io/mike-works/web-security-fundamentals.svg"/>
   </a>
 </p>
 <p align='center'>
@@ -60,7 +60,7 @@ Particularly if you’ve never tried it before, you should install [Microsoft Vi
 ### Check out and setup the project for this workshop
 
 ```
-git clone git@github.com:mike-north/web-security-fundamentals.git websec
+git clone git@github.com:mike-works/web-security-fundamentals.git websec
 cd websec
 npm install
 ```

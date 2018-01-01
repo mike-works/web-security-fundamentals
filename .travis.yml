@@ -2,6 +2,8 @@ language: node_js
 node_js:
 - 'stable'
 
+caches: 'yarn'
+
 before_install:
 - npm install -g npm
 - npm install -g greenkeeper-lockfile@1

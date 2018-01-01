@@ -38,7 +38,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mike-north/web-security-fundamentals.git"
+    "url": "git+https://github.com/mike-works/web-security-fundamentals.git"
   },
   "keywords": [
     "web-security",
@@ -53,9 +53,9 @@
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/mike-north/web-security-fundamentals/issues"
+    "url": "https://github.com/mike-works/web-security-fundamentals/issues"
   },
-  "homepage": "https://github.com/mike-north/web-security-fundamentals#readme",
+  "homepage": "https://github.com/mike-works/web-security-fundamentals#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.74",
     "babel-cli": "^6.26.0",
