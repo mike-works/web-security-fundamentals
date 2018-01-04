@@ -9,7 +9,7 @@ function registrationError(req, res, message) {
     type: 'danger',
     message
   }
-  res.render('auth/register', { title: 'Strawbank: Register' });
+  res.render('auth/register', { title: 'Strawbank: Register', message });
 }
 
 /* GET home page. */

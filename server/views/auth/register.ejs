@@ -1,5 +1,8 @@
 <% layout('auth/layout') -%>
 <div class="spacer-t-20"></div>
+<% if (typeof message !== 'undefined') { %>
+  <p style='line-height: 30px' class='alert alert-danger'><%- message %></p>
+<% } %>
 <div class="mui-panel">
   <div class="mui--pull-right">
       Already have an account?
