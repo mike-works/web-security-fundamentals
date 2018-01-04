@@ -40,7 +40,6 @@ router.post('/', function(req, res, next) {
       let message = e.message.replace(/\n/g, '<br>');
       registrationError(req, res, message);
     } else {
-      throw e;
       next(e);
     }      
   });
