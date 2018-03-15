@@ -32,7 +32,7 @@
     "nodemon": "^1.12.0",
     "sequelize": "^4.7.5",
     "serve-favicon": "~2.4.2",
-    "sqlite3": "^3.1.10"
+    "sqlite3": "^4.0.0"
   },
   "description": "Mike Works Web Security course",
   "main": "index.js",
