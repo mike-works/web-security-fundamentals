@@ -10,25 +10,26 @@
 </p>
 
 <p align='center'>
+  <a href="https://greenkeeper.io/" title="Dependencies">
+    <img src="https://badges.greenkeeper.io/mike-works/web-security-fundamentals.svg"/>
+  </a>
   <a href="https://travis-ci.org/mike-works/web-security-fundamentals" title="Build Status">
     <img title="Build Status" src="https://travis-ci.org/mike-works/web-security-fundamentals.svg?branch=master"/>
   </a>
   <a href="https://mike.works/course/web-security-5c876cc" title="Web Security for Web Developers">
     <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
   </a>
-  <a href="https://docs.mike.works/web-sec" title="Slides">
+  <a href="https://docs.mike.works/web-security-fundamentals)" title="Slides">
     <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
-  </a>
-  <a title="Greenkeeper badge" href="https://greenkeeper.io/">
-    <img src="https://badges.greenkeeper.io/mike-works/web-security-fundamentals.svg"/>
   </a>
 </p>
 <p align='center'>
 This is the  project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Web Security for Web Developers" href="https://mike.works/course/web-security-5c876cc">Web Security for Web Developers</a> course.
 </p>
 
-## Are there any documents that go along with this?
-Yes! **[Here are the slides](https://docs.mike.works/web-security-fundamentals)**, and **[here's a course outline](https://mike.works/course/web-security-5c876cc)**.
+# Course outline and slides
+ * [View course outline here](https://mike.works/course/web-security-5c876cc)
+ * [View slides here](https://docs.mike.works/web-security-fundamentals)
 
 ## What are the pieces?
 
