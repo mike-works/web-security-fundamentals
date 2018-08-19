@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/mike-works/web-security-fundamentals/compare/v1.0.0...v1.0.1) (2018-08-19)
+
+
+### Bug Fixes
+
+* update readme ([691031f](https://github.com/mike-works/web-security-fundamentals/commit/691031f))
+
 # 1.0.0 (2018-08-19)
 
 
