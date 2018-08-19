@@ -10,11 +10,12 @@
 </p>
 
 <p align='center'>
-  
   <a href="https://travis-ci.org/mike-works/web-security-fundamentals" title="Build Status">
     <img title="Build Status" src="https://travis-ci.org/mike-works/web-security-fundamentals.svg?branch=master"/>
   </a>
-  
+  <a href="https://github.com/mike-works/web-security-fundamentals/releases" title="Version">
+    <img title="Version" src="https://img.shields.io/github/tag/mike-works/web-security-fundamentals.svg" />
+  </a>
 </p>
 <p align='center'>
 This is the  project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Web Security for Web Developers" href="https://mike.works/course/web-security-5c876cc">Web Security for Web Developers</a> course.
