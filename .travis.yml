@@ -1,12 +1,14 @@
 language: node_js
+cache:
+  directories:
+    - ~/.npm
+notifications:
+  email: false
 node_js:
-- 'stable'
-
-caches: 'yarn'
-
-before_install:
-- npm install -g npm
-- npm install -g greenkeeper-lockfile@1
-before_script: greenkeeper-lockfile-update
-# Only the node version 6 job will upload the lockfile
-after_script: greenkeeper-lockfile-upload
+  - '10'
+  - '8'
+after_success:
+  - npm run travis-deploy-once "npm run semantic-release"
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/

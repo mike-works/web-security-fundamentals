@@ -10,18 +10,11 @@
 </p>
 
 <p align='center'>
-  <a href="https://greenkeeper.io/" title="Dependencies">
-    <img src="https://badges.greenkeeper.io/mike-works/web-security-fundamentals.svg"/>
-  </a>
+  
   <a href="https://travis-ci.org/mike-works/web-security-fundamentals" title="Build Status">
     <img title="Build Status" src="https://travis-ci.org/mike-works/web-security-fundamentals.svg?branch=master"/>
   </a>
-  <a href="https://mike.works/course/web-security-5c876cc" title="Web Security for Web Developers">
-    <img title="Course Outline" src="https://img.shields.io/badge/mike.works-course%20outline-blue.svg"/>
-  </a>
-  <a href="https://docs.mike.works/web-security-fundamentals)" title="Slides">
-    <img title="Slides" src="https://img.shields.io/badge/mike.works-slides-blue.svg"/>
-  </a>
+  
 </p>
 <p align='center'>
 This is the  project used for the <a title="Mike.Works" href="https://mike.works">Mike.Works</a> <a title="Web Security for Web Developers" href="https://mike.works/course/web-security-5c876cc">Web Security for Web Developers</a> course.

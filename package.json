@@ -1,10 +1,12 @@
 {
-  "name": "mikeworks-websec",
-  "version": "1.0.0",
+  "name": "@mike-works/web-security-fundamentals",
+  "version": "0.0.0-development",
   "private": true,
   "scripts": {
     "start": "./node_modules/.bin/nodemon -e js --watch server index.js",
-    "test": "echo 'no tests'"
+    "test": "echo 'no tests'",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "bcrypt": "^3.0.0",
@@ -31,14 +33,14 @@
     "node-exiftool": "2.3.0",
     "nodemon": "^1.18.3",
     "sequelize": "^4.38.0",
-    "serve-favicon": "~2.4.2",
+    "serve-favicon": "~2.5.0",
     "sqlite3": "^4.0.0"
   },
   "description": "Mike Works Web Security course",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mike-works/web-security-fundamentals.git"
+    "url": "https://github.com/mike-works/web-security-fundamentals.git"
   },
   "keywords": [
     "web-security",
@@ -62,6 +64,10 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
     "babel-preset-stage-3": "^6.24.1",
-    "greenkeeper-lockfile": "^1.15.1"
+    "travis-deploy-once": "^5.0.2",
+    "semantic-release": "^15.9.9"
+  },
+  "release": {
+    "extends": "@mike-works/workshop-semantic-release-config"
   }
 }
