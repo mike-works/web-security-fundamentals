@@ -57,6 +57,7 @@
   },
   "homepage": "https://github.com/mike-works/web-security-fundamentals#readme",
   "devDependencies": {
+    "@mike-works/workshop-semantic-release-config": "^1.0.0",
     "@types/lodash": "^4.14.116",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
