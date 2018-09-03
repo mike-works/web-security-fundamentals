@@ -62,7 +62,7 @@
     "@mike-works/workshop-semantic-release-config": "^1.0.0",
     "@types/lodash": "^4.14.116",
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
+    "babel-eslint": "^9.0.0",
     "babel-preset-stage-3": "^6.24.1",
     "travis-deploy-once": "^5.0.2",
     "semantic-release": "^15.9.9"
