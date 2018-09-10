@@ -65,7 +65,7 @@
     "babel-eslint": "^9.0.0",
     "babel-preset-stage-3": "^6.24.1",
     "travis-deploy-once": "^5.0.2",
-    "semantic-release": "^15.9.9"
+    "semantic-release": "^15.9.14"
   },
   "release": {
     "extends": "@mike-works/workshop-semantic-release-config"
