@@ -32,7 +32,7 @@
     "morgan": "~1.9.0",
     "node-exiftool": "2.3.0",
     "nodemon": "^1.18.4",
-    "sequelize": "^4.38.0",
+    "sequelize": "^4.38.1",
     "serve-favicon": "~2.5.0",
     "sqlite3": "^4.0.0"
   },
