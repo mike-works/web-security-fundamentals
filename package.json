@@ -59,13 +59,14 @@
   },
   "homepage": "https://github.com/mike-works/web-security-fundamentals#readme",
   "devDependencies": {
+    "@mike-works/js-lib-renovate-config": "^2.0.0",
     "@mike-works/workshop-semantic-release-config": "^1.0.0",
     "@types/lodash": "^4.14.117",
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.1",
     "babel-preset-stage-3": "^6.24.1",
-    "travis-deploy-once": "^5.0.9",
-    "semantic-release": "^15.10.7"
+    "semantic-release": "^15.10.7",
+    "travis-deploy-once": "^5.0.9"
   },
   "release": {
     "extends": "@mike-works/workshop-semantic-release-config"
