@@ -1,3 +1,14 @@
+## [1.0.2](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.1...v1.0.2) (2018-11-12)
+
+
+### Bug Fixes
+
+* shared renovate config ([5808fc5](https://github.com/mike-works/web-security-fundamentals.git/commit/5808fc5))
+* **deps:** update dependency helmet to v3.15.0 ([336f6f8](https://github.com/mike-works/web-security-fundamentals.git/commit/336f6f8))
+* **deps:** update dependency sequelize to v4.41.1 ([9a92081](https://github.com/mike-works/web-security-fundamentals.git/commit/9a92081))
+* **deps:** update dependency sequelize to v4.41.2 ([008b8cc](https://github.com/mike-works/web-security-fundamentals.git/commit/008b8cc))
+* **deps:** update dependency sqlite3 to v4.0.4 ([80f32cc](https://github.com/mike-works/web-security-fundamentals.git/commit/80f32cc))
+
 ## [1.0.1](https://github.com/mike-works/web-security-fundamentals/compare/v1.0.0...v1.0.1) (2018-08-19)
 
 
