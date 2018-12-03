@@ -65,7 +65,7 @@
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.1",
     "babel-preset-stage-3": "6.24.1",
-    "semantic-release": "15.12.3",
+    "semantic-release": "15.12.4",
     "travis-deploy-once": "5.0.9"
   },
   "release": {
