@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.6...v1.0.7) (2018-12-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency debug to v4.1.1 ([f724ea5](https://github.com/mike-works/web-security-fundamentals.git/commit/f724ea5))
+
 ## [1.0.6](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.5...v1.0.6) (2018-12-14)
 
 
