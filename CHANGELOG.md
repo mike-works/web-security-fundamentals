@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.8...v1.0.9) (2019-01-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency chalk to v2.4.2 ([b437e16](https://github.com/mike-works/web-security-fundamentals.git/commit/b437e16))
+
 ## [1.0.8](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.7...v1.0.8) (2018-12-24)
 
 
