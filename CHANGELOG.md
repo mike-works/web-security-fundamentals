@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.13...v1.0.14) (2019-02-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cookie-parser to v1.4.4 ([070b0b7](https://github.com/mike-works/web-security-fundamentals.git/commit/070b0b7))
+
 ## [1.0.13](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.12...v1.0.13) (2019-02-10)
 
 
