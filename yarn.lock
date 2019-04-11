@@ -2701,10 +2701,10 @@ expect-ct@0.1.1:
   resolved "https://registry.yarnpkg.com/expect-ct/-/expect-ct-0.1.1.tgz#de84476a2dbcb85000d5903737e9bc8a5ba7b897"
   integrity sha512-ngXzTfoRGG7fYens3/RMb6yYoVLvLMfmsSllP/mZPxNHgFq41TmPSLF/nLY7fwoclI2vElvAmILFWGUYqdjfCg==
 
-express-session@1.16.0:
-  version "1.16.0"
-  resolved "https://registry.yarnpkg.com/express-session/-/express-session-1.16.0.tgz#547448ba8aba8e8f1da7ffd235cf10f21be96a4d"
-  integrity sha512-97YypxvxMKqt34ZkdILd5OTCQ4cwMaJWz/GEXAZ33XWGPEj6leNsymPeO1ykfIN7WnpK6WL3+U9VKEnq7H9FVw==
+express-session@1.16.1:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/express-session/-/express-session-1.16.1.tgz#251ff9776c59382301de6c8c33411af357ed439c"
+  integrity sha512-pWvUL8Tl5jUy1MLH7DhgUlpoKeVPUTe+y6WQD9YhcN0C5qAhsh4a8feVjiUXo3TFhIy191YGZ4tewW9edbl2xQ==
   dependencies:
     cookie "0.3.1"
     cookie-signature "1.0.6"
