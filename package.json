@@ -9,7 +9,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "bcrypt": "3.0.5",
+    "bcrypt": "3.0.6",
     "body-parser": "1.18.3",
     "chalk": "2.4.2",
     "commander": "2.20.0",
