@@ -1,3 +1,10 @@
+## [1.0.25](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.24...v1.0.25) (2019-04-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency csurf to v1.10.0 ([9879ed8](https://github.com/mike-works/web-security-fundamentals.git/commit/9879ed8))
+
 ## [1.0.24](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.23...v1.0.24) (2019-04-14)
 
 
