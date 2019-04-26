@@ -1,3 +1,10 @@
+## [1.0.29](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.28...v1.0.29) (2019-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency body-parser to v1.19.0 ([12826b1](https://github.com/mike-works/web-security-fundamentals.git/commit/12826b1))
+
 ## [1.0.28](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.27...v1.0.28) (2019-04-26)
 
 
