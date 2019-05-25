@@ -31,7 +31,7 @@
     "lodash": "4.17.11",
     "morgan": "1.9.1",
     "node-exiftool": "2.3.0",
-    "nodemon": "1.19.0",
+    "nodemon": "1.19.1",
     "sequelize": "5.8.6",
     "serve-favicon": "2.5.0",
     "sqlite3": "4.0.8"
