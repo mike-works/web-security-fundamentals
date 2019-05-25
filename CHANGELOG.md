@@ -1,3 +1,10 @@
+## [1.0.43](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.42...v1.0.43) (2019-05-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency nodemon to v1.19.1 ([214b5fd](https://github.com/mike-works/web-security-fundamentals.git/commit/214b5fd))
+
 ## [1.0.42](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.41...v1.0.42) (2019-05-17)
 
 
