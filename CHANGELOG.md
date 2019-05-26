@@ -1,3 +1,10 @@
+## [1.0.44](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.43...v1.0.44) (2019-05-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency express to v4.17.1 ([1340e87](https://github.com/mike-works/web-security-fundamentals.git/commit/1340e87))
+
 ## [1.0.43](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.42...v1.0.43) (2019-05-25)
 
 
