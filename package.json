@@ -61,7 +61,7 @@
   "devDependencies": {
     "@mike-works/js-lib-renovate-config": "2.0.0",
     "@mike-works/workshop-semantic-release-config": "1.0.0",
-    "@types/lodash": "4.14.133",
+    "@types/lodash": "4.14.134",
     "babel-core": "6.26.3",
     "babel-eslint": "10.0.1",
     "babel-preset-stage-3": "6.24.1",
