@@ -1,3 +1,10 @@
+## [1.0.50](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.49...v1.0.50) (2019-06-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ejs to v2.6.2 ([0744f4d](https://github.com/mike-works/web-security-fundamentals.git/commit/0744f4d))
+
 ## [1.0.49](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.48...v1.0.49) (2019-06-13)
 
 
