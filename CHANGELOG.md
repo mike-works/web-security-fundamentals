@@ -1,3 +1,10 @@
+## [1.0.60](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.59...v1.0.60) (2019-07-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lodash to v4.17.14 ([07e26c3](https://github.com/mike-works/web-security-fundamentals.git/commit/07e26c3))
+
 ## [1.0.59](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.58...v1.0.59) (2019-07-10)
 
 
