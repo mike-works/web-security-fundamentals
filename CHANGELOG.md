@@ -1,3 +1,10 @@
+## [1.0.64](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.63...v1.0.64) (2019-07-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency helmet to v3.19.0 ([faaee38](https://github.com/mike-works/web-security-fundamentals.git/commit/faaee38))
+
 ## [1.0.63](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.62...v1.0.63) (2019-07-14)
 
 
