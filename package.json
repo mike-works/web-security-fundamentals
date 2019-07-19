@@ -28,7 +28,7 @@
     "faker": "4.1.0",
     "helmet": "3.19.0",
     "helmet-csp": "2.7.1",
-    "lodash": "4.17.14",
+    "lodash": "4.17.15",
     "morgan": "1.9.1",
     "node-exiftool": "2.3.0",
     "nodemon": "1.19.1",
