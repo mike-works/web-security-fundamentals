@@ -1479,6 +1479,11 @@ bottleneck@^2.0.1:
   resolved "https://registry.yarnpkg.com/bottleneck/-/bottleneck-2.7.2.tgz#965837e92382007609a5a4575884cc686968950a"
   integrity sha512-5xDpx3n+D0E3DjghrBv9K81PwPbicbN9lp/Zf+KFfPq0/s8MovnRzLdFui5NIak/5Tbi4euFacBNgRzsWDmU6A==
 
+bowser@2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/bowser/-/bowser-2.5.3.tgz#811b0a24219c566c9a6ab3402bc8a13f35a18a96"
+  integrity sha512-aWCA+CKfKNL/WGzNgjmK+Whp57JMzboZMwJ5gy2jDj2bEIjbMCb3ImGX+V++5wsJftyFiDIbOjRXl60ycniVqg==
+
 boxen@^1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-1.2.2.tgz#3f1d4032c30ffea9d4b02c322eaf2ea741dcbce5"
@@ -3303,10 +3308,20 @@ helmet-csp@2.8.0:
     dasherize "2.0.0"
     platform "1.3.5"
 
-helmet@3.20.0:
-  version "3.20.0"
-  resolved "https://registry.yarnpkg.com/helmet/-/helmet-3.20.0.tgz#8a9383bf8230a461cafe8bc763423fbde110d2fc"
-  integrity sha512-Ob+TqmQFZ5f7WgP8kBbAzNPsbf6p1lOj5r+327/ymw/IILWih3wcx9u/u/S8Mwv5wbBkO7Li6x5s23t3COhUKw==
+helmet-csp@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/helmet-csp/-/helmet-csp-2.9.0.tgz#8524886b08c7f7d611cb5f36eae453dd604efd4c"
+  integrity sha512-DGGOQtOLM7ZQpjbf/uvUonq1yG/rFgsBuK10ZJt2AtxUJxqfkPvfmP9aLUmgH9IactiRiYoiFY72YYSPl1TLTQ==
+  dependencies:
+    bowser "2.5.3"
+    camelize "1.0.0"
+    content-security-policy-builder "2.1.0"
+    dasherize "2.0.0"
+
+helmet@3.20.1:
+  version "3.20.1"
+  resolved "https://registry.yarnpkg.com/helmet/-/helmet-3.20.1.tgz#802fcb39ac6865208cbc6879d3502e582c6f777e"
+  integrity sha512-em+X5Wz/f0yqoRsBnpnVy3wJHSiIeskX3FQn30szBh1tILaOeSRRLkShuUVFlk/o4qTYjWxdHg4FrRe45iBWHg==
   dependencies:
     depd "2.0.0"
     dns-prefetch-control "0.2.0"
@@ -3315,7 +3330,7 @@ helmet@3.20.0:
     feature-policy "0.3.0"
     frameguard "3.1.0"
     helmet-crossdomain "0.4.0"
-    helmet-csp "2.8.0"
+    helmet-csp "2.9.0"
     hide-powered-by "1.1.0"
     hpkp "2.0.0"
     hsts "2.2.0"
