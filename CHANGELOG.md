@@ -1,3 +1,10 @@
+## [1.0.88](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.87...v1.0.88) (2019-09-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ejs to v2.7.1 ([39afc1c](https://github.com/mike-works/web-security-fundamentals.git/commit/39afc1c))
+
 ## [1.0.87](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.86...v1.0.87) (2019-08-31)
 
 
