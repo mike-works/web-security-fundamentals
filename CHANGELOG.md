@@ -1,3 +1,10 @@
+## [1.0.89](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.88...v1.0.89) (2019-09-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sequelize to v5.18.1 ([bed32db](https://github.com/mike-works/web-security-fundamentals.git/commit/bed32db))
+
 ## [1.0.88](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.87...v1.0.88) (2019-09-02)
 
 
