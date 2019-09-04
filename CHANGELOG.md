@@ -1,3 +1,10 @@
+## [1.0.91](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.90...v1.0.91) (2019-09-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency helmet-csp to v2.9.1 ([7d38e96](https://github.com/mike-works/web-security-fundamentals.git/commit/7d38e96))
+
 ## [1.0.90](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.89...v1.0.90) (2019-09-03)
 
 
