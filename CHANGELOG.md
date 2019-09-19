@@ -1,3 +1,10 @@
+## [1.0.96](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.95...v1.0.96) (2019-09-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sequelize to v5.19.0 ([04258f8](https://github.com/mike-works/web-security-fundamentals.git/commit/04258f8))
+
 ## [1.0.95](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.94...v1.0.95) (2019-09-08)
 
 
