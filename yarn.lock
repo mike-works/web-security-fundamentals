@@ -1479,11 +1479,6 @@ bottleneck@^2.0.1:
   resolved "https://registry.yarnpkg.com/bottleneck/-/bottleneck-2.7.2.tgz#965837e92382007609a5a4575884cc686968950a"
   integrity sha512-5xDpx3n+D0E3DjghrBv9K81PwPbicbN9lp/Zf+KFfPq0/s8MovnRzLdFui5NIak/5Tbi4euFacBNgRzsWDmU6A==
 
-bowser@2.5.4:
-  version "2.5.4"
-  resolved "https://registry.yarnpkg.com/bowser/-/bowser-2.5.4.tgz#850fccfebde92165440279b5ab19be3c7f05cfe1"
-  integrity sha512-74GGwfc2nzYD19JCiA0RwCxdq7IY5jHeEaSrrgm/5kusEuK+7UK0qDG3gyzN47c4ViNyO4osaKtZE+aSV6nlpQ==
-
 bowser@^2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/bowser/-/bowser-2.6.1.tgz#196599588af6f0413449c79ab3bf7a5a1bb3384f"
@@ -3302,16 +3297,6 @@ helmet-crossdomain@0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/helmet-crossdomain/-/helmet-crossdomain-0.4.0.tgz#5f1fe5a836d0325f1da0a78eaa5fd8429078894e"
   integrity sha512-AB4DTykRw3HCOxovD1nPR16hllrVImeFp5VBV9/twj66lJ2nU75DP8FPL0/Jp4jj79JhTfG+pFI2MD02kWJ+fA==
-
-helmet-csp@2.9.1:
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/helmet-csp/-/helmet-csp-2.9.1.tgz#39939a84ca3657ee3cba96f296169ccab02f97d5"
-  integrity sha512-HgdXSJ6AVyXiy5ohVGpK6L7DhjI9KVdKVB1xRoixxYKsFXFwoVqtLKgDnfe3u8FGGKf9Ml9k//C9rnncIIAmyA==
-  dependencies:
-    bowser "2.5.4"
-    camelize "1.0.0"
-    content-security-policy-builder "2.1.0"
-    dasherize "2.0.0"
 
 helmet-csp@2.9.2:
   version "2.9.2"
