@@ -1,3 +1,10 @@
+## [1.0.100](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.99...v1.0.100) (2019-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commander to v2.20.1 ([afe76c7](https://github.com/mike-works/web-security-fundamentals.git/commit/afe76c7))
+
 ## [1.0.99](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.98...v1.0.99) (2019-09-27)
 
 
