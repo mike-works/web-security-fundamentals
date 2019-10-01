@@ -3313,6 +3313,16 @@ helmet-csp@2.9.2:
     content-security-policy-builder "2.1.0"
     dasherize "2.0.0"
 
+helmet-csp@2.9.3:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/helmet-csp/-/helmet-csp-2.9.3.tgz#e568303921554f317a91a7e1cf42adb1180a0c98"
+  integrity sha512-K3ZgZnItK8cDNEg6sqCrN6KlZXfY2Liq43kVLZcbBQvZIhzwppmXoZyTh+6guSMJA3WTiwh0lTvolIHQxwB5Og==
+  dependencies:
+    bowser "^2.6.1"
+    camelize "1.0.0"
+    content-security-policy-builder "2.1.0"
+    dasherize "2.0.0"
+
 helmet@3.21.1:
   version "3.21.1"
   resolved "https://registry.yarnpkg.com/helmet/-/helmet-3.21.1.tgz#b0ab7c63fc30df2434be27e7e292a9523b3147e9"
