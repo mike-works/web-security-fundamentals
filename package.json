@@ -24,7 +24,7 @@
     "ejs": "2.7.1",
     "ejs-mate": "3.0.0",
     "express": "4.17.1",
-    "express-session": "1.16.2",
+    "express-session": "1.17.0",
     "faker": "4.1.0",
     "helmet": "3.21.1",
     "helmet-csp": "2.9.3",
