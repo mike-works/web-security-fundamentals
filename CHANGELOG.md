@@ -1,3 +1,10 @@
+## [1.0.107](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.106...v1.0.107) (2019-10-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency express-session to v1.17.0 ([102b776](https://github.com/mike-works/web-security-fundamentals.git/commit/102b776))
+
 ## [1.0.106](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.105...v1.0.106) (2019-10-09)
 
 
