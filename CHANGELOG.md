@@ -1,3 +1,10 @@
+## [1.0.127](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.126...v1.0.127) (2020-01-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency cookie-session to v2.0.0-rc.1 ([5ccbe99](https://github.com/mike-works/web-security-fundamentals.git/commit/5ccbe99))
+
 ## [1.0.126](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.125...v1.0.126) (2020-01-19)
 
 
