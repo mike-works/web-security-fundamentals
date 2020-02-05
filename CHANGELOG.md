@@ -1,3 +1,10 @@
+## [1.0.128](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.127...v1.0.128) (2020-02-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency bcrypt to v3.0.8 ([8637600](https://github.com/mike-works/web-security-fundamentals.git/commit/8637600))
+
 ## [1.0.127](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.126...v1.0.127) (2020-01-24)
 
 
