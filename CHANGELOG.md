@@ -1,3 +1,10 @@
+## [1.0.134](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.133...v1.0.134) (2020-03-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency morgan to v1.10.0 ([f9f8cd4](https://github.com/mike-works/web-security-fundamentals.git/commit/f9f8cd4))
+
 ## [1.0.133](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.132...v1.0.133) (2020-03-15)
 
 
