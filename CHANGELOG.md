@@ -1,3 +1,10 @@
+## [1.0.140](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.139...v1.0.140) (2020-04-27)
+
+
+### Bug Fixes
+
+* **deps:** update dependency sqlite3 to v4.2.0 ([91872ac](https://github.com/mike-works/web-security-fundamentals.git/commit/91872ac))
+
 ## [1.0.139](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.138...v1.0.139) (2020-04-23)
 
 
