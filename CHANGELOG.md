@@ -1,3 +1,10 @@
+## [1.0.159](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.158...v1.0.159) (2020-09-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency debug to v4.2.0 ([97c92e1](https://github.com/mike-works/web-security-fundamentals.git/commit/97c92e1))
+
 ## [1.0.158](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.157...v1.0.158) (2020-08-13)
 
 
