@@ -19,7 +19,7 @@
     "cookie-session": "2.0.0-rc.1",
     "cors": "2.8.5",
     "csurf": "1.11.0",
-    "debug": "4.3.0",
+    "debug": "4.3.1",
     "dist-exiftool": "10.53.0",
     "ejs": "2.7.4",
     "ejs-mate": "3.0.0",
