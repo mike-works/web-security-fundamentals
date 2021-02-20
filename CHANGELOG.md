@@ -1,3 +1,10 @@
+## [1.0.161](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.160...v1.0.161) (2021-02-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lodash to v4.17.21 ([618e361](https://github.com/mike-works/web-security-fundamentals.git/commit/618e361))
+
 ## [1.0.160](https://github.com/mike-works/web-security-fundamentals.git/compare/v1.0.159...v1.0.160) (2020-12-23)
 
 
