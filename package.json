@@ -21,7 +21,7 @@
     "csurf": "1.11.0",
     "debug": "4.3.3",
     "dist-exiftool": "10.53.0",
-    "ejs": "2.7.4",
+    "ejs": "3.1.8",
     "ejs-mate": "3.0.0",
     "express": "4.17.2",
     "express-session": "1.17.2",
