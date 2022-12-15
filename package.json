@@ -23,7 +23,7 @@
     "dist-exiftool": "10.53.0",
     "ejs": "2.7.4",
     "ejs-mate": "3.0.0",
-    "express": "4.17.2",
+    "express": "4.17.3",
     "express-session": "1.17.2",
     "faker": "4.1.0",
     "helmet": "3.23.3",
