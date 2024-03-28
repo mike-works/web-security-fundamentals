@@ -65,6 +65,15 @@ module.exports = sequelize => {
     User.hasMany(Account);
     Account.belongsTo(User);
     Account.sync();
+    Account.findById = function (accountId) {
+      return Account.findOne({
+        where: { id: accountId },
+        attributes: ['id', 'userId', 'name', 'number', 'balance']
+      }).then(account => {
+        if (!account) throw new Error("No account found");
+        return account;
+      })
+    };
   }
 
   return Account;
