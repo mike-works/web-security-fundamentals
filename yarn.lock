@@ -2129,10 +2129,10 @@ connect-flash@0.1.1:
   resolved "https://registry.yarnpkg.com/connect-flash/-/connect-flash-0.1.1.tgz#d8630f26d95a7f851f9956b1e8cc6732f3b6aa30"
   integrity sha1-2GMPJtlaf4UfmVax6MxnMvO2qjA=
 
-connect-sqlite3@0.9.13:
-  version "0.9.13"
-  resolved "https://registry.yarnpkg.com/connect-sqlite3/-/connect-sqlite3-0.9.13.tgz#d6b1264afc26f5996a219217aecb740a2a57641e"
-  integrity sha512-4Dif7wjNutcAsvvl85nqApIa3gViEnN6lKOcEBEtuL9JB1DIq1bREcq0pQCc1oCpSvDGpjsFs0doftzGFc4cmQ==
+connect-sqlite3@0.9.15:
+  version "0.9.15"
+  resolved "https://registry.yarnpkg.com/connect-sqlite3/-/connect-sqlite3-0.9.15.tgz#792bd614f63d0b47294c8148c04c4b71a1e6112c"
+  integrity sha512-aJGDtASX8DTUZ++7iTN97vR0vGFpm8jDFew/qHK3veISkCpVpPS0tMdqs7i9fiHLaqaU0Jh3c4sUvNxsizaSTA==
   dependencies:
     sqlite3 "^5.0.2"
 

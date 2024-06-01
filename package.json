@@ -14,7 +14,7 @@
     "chalk": "2.4.2",
     "commander": "2.20.3",
     "connect-flash": "0.1.1",
-    "connect-sqlite3": "0.9.13",
+    "connect-sqlite3": "0.9.15",
     "cookie-parser": "1.4.6",
     "cookie-session": "2.1.0",
     "cors": "2.8.5",
