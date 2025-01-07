@@ -15,7 +15,7 @@
     "commander": "2.20.3",
     "connect-flash": "0.1.1",
     "connect-sqlite3": "0.9.15",
-    "cookie-parser": "1.4.6",
+    "cookie-parser": "1.4.7",
     "cookie-session": "2.1.0",
     "cors": "2.8.5",
     "csurf": "1.11.0",
