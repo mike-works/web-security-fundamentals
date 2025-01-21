@@ -12,7 +12,7 @@
     "bcrypt": "3.0.8",
     "body-parser": "1.20.3",
     "chalk": "2.4.2",
-    "commander": "2.20.3",
+    "commander": "13.1.0",
     "connect-flash": "0.1.1",
     "connect-sqlite3": "0.9.15",
     "cookie-parser": "1.4.7",
