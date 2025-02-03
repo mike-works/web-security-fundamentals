@@ -25,7 +25,7 @@
     "ejs-mate": "3.0.0",
     "express": "4.21.2",
     "express-session": "1.18.1",
-    "faker": "4.1.0",
+    "faker": "6.6.6",
     "helmet": "3.23.3",
     "helmet-csp": "2.10.0",
     "lodash": "4.17.21",
