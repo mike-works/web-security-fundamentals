@@ -11,7 +11,7 @@
   "dependencies": {
     "bcrypt": "3.0.8",
     "body-parser": "1.20.3",
-    "chalk": "2.4.2",
+    "chalk": "5.4.1",
     "commander": "2.20.3",
     "connect-flash": "0.1.1",
     "connect-sqlite3": "0.9.15",
