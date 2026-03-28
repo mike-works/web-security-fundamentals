@@ -33,7 +33,7 @@
     "node-exiftool": "2.3.0",
     "nodemon": "1.19.4",
     "sequelize": "5.22.5",
-    "serve-favicon": "2.5.0",
+    "serve-favicon": "2.5.1",
     "sqlite3": "4.2.0"
   },
   "description": "Mike Works Web Security course",
