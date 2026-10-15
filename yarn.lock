@@ -3803,6 +3803,11 @@ helmet-csp@2.10.0:
     content-security-policy-builder "2.1.0"
     dasherize "2.0.0"
 
+helmet-csp@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/helmet-csp/-/helmet-csp-4.1.0.tgz#8c76482f2adc4c4a1bfda41cffe649fbc7d2e49e"
+  integrity sha512-31Qmv91fMV+M4qJjWsgAyOtVx/h39pmLgRRS6ntmGfiNgI7MhNxUPr6lcSv8M88gTrgA31gQU4ZGT5eVQngjtw==
+
 helmet@3.23.3:
   version "3.23.3"
   resolved "https://registry.yarnpkg.com/helmet/-/helmet-3.23.3.tgz#5ba30209c5f73ded4ab65746a3a11bedd4579ab7"
